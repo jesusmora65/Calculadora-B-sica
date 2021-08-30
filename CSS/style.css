@@ -9,11 +9,33 @@
     display: flex;
     align-items: center; 
     margin-bottom:15px;
-    
+    background-color: rgb(181, 181, 240);
+    border-radius: 15px;
+    padding:2px;
+    margin:3px;
 }
 
+input{
+    width:55%;
+    margin:15px;
+}
+ 
+button{
+   margin-right:10px;
+   padding:10px;
+   border-radius: 15px;
+   background-color: rgb(113, 113, 135);
+   color:white;
+}
+
+button:hover{
+   background-color: white;
+   color:rgb(113, 113, 135);
+}
+
+
 .container{
-background-color: rgb(204, 193, 193);
+
 width: 95%;
 min-width:300px ;
 margin:auto;
