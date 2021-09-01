@@ -15,59 +15,82 @@
             <h1>Calculadora Básica</h1>
         </header>
         <main>
-            <form action="">
-                <div class="section">
-                    <div class="Numeros">
-                        <div class="Numero">
-                            <label for="Num1M">Num 1:</label>
-                            <input type="text" name="Numero1M" id="Num1M" placeholder="Digite un número"  required>
-                        </div>
+            <div class="section">
+                <div class="Numeros">
+                    <div class="Numero">
+                        <label for="Num1M">Num 1:</label>
+                        <input type="text" name="Numero1M" id="Num1M" placeholder="Digite un número">
+                    </div>
 
-                        <div class="Numero">
-                            <label for="Num2M">Num 2:</label>
-                            <input type="text" name="Numero2M" id="Num2M" placeholder="Digite un número"  required>
-                        </div>
+                    <div class="Numero">
+                        <label for="Num2M">Num 2:</label>
+                        <input type="text" name="Numero2M" id="Num2M" placeholder="Digite un número">
                     </div>
-                
-                    <button class="button">Multiplicar</button>
-                </div>
-    
-                <div class="section">
-                    <div class="Numeros">
-                        <div class="Numero">
-                            <label for="Num1S">Num 1:</label>
-                            <input type="text" name="Numero1S" id="Num1S" placeholder="Digite un número"  required>
-                        </div>
 
-                        <div class="Numero">
-                            <label for="Num2S">Num 2:</label>
-                            <input type="text" name="Numero2S" id="Num2S" placeholder="Digite un número"  required>
-                        </div>
+                    <div class="Resultado">
+                        <label for="RM">Resultado</label>
+                        <input type="text" name="ResultadoM" id="RM" placeholder="Resultado" readonly>
                     </div>
-                
-                    <button class="button">Sumar</button>
                 </div>
-    
-                <div class="section">
-                    <div class="Numeros">
-                        <div class="Numero">
-                            <label for="Num1R">Num 1:</label>
-                            <input type="text" name="Numero1R" id="Num1R" placeholder="Digite un número"  required>
-                        </div>
-    
-                        <div class="Numero">
-                            <label for="Num2R">Num 2:</label>
-                            <input type="text" name="Numero2R" id="Num2R" placeholder="Digite un número"  required>
-                        </div>    
+            
+                <div class="botones">
+                    <button id="Multiplicar" class="button">Multiplicar</button>  <br>
+                    <button id="Borrar1" class="button">Borrar</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="Numeros">
+                    <div class="Numero">
+                        <label for="Num1S">Num 1:</label>
+                        <input type="text" name="Numero1S" id="Num1S" placeholder="Digite un número">
                     </div>
-                    <button class="button">Restar</button>
+
+                    <div class="Numero">
+                        <label for="Num2S">Num 2:</label>
+                        <input type="text" name="Numero2S" id="Num2S" placeholder="Digite un número">
+                    </div>
+                    
+                    <div class="Resultado">
+                        <label for="RS">Resultado</label>
+                        <input type="text" name="ResultadoS" id="RS" placeholder="Resultado" readonly>
+                    </div>
                 </div>
-            </form> 
+            
+                <div class="botones">
+                    <button id="Sumar" class="button">Sumar</button>  <br>
+                    <button id="Borrar2" class="button">Borrar</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="Numeros">
+                    <div class="Numero">
+                        <label for="Num1R">Num 1:</label>
+                        <input type="text" name="Numero1R" id="Num1R" placeholder="Digite un número">
+                    </div>
+
+                    <div class="Numero">
+                        <label for="Num2R">Num 2:</label>
+                        <input type="text" name="Numero2R" id="Num2R" placeholder="Digite un número">
+                    </div>    
+                    
+                    <div class="Resultado">
+                        <label for="RR">Resultado</label>
+                        <input type="text" name="ResultadoR" id="RR" placeholder="Resultado" readonly>
+                    </div>
+                </div>
+                <div class="botones">
+                    <button id="Restar" class="button">Restar</button>  <br>
+                    <button id="Borrar3" class="button">Borrar</button>
+                </div>
+            </div>
         </main> 
               
         <footer>
             <h3>Sigueme para más retos!</h3>   
         </footer>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

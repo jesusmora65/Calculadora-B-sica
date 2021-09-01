@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .section{
     display: flex;
     align-items: center; 
@@ -35,14 +34,31 @@ button:hover{
 
 
 .container{
-
-width: 95%;
-min-width:300px ;
-margin:auto;
-text-align: center;
+    width: 95%;
+    min-width:300px ;
+    margin:auto;
+    text-align: center;
 }
 
+.botones{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
 
+@media(min-width:720px) {
+    main{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .section{
+        width: 250px;
+    }
+    input{
+        width: 115px;
+    }
+}
 
 
 
